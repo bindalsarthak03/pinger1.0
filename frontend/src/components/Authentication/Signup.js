@@ -52,9 +52,10 @@ const SignUp = () => {
             onChange={(e)=>postPic(e.target.files[0])}
             />
         </FormControl>
-        <Button colorScheme='blue' color={'black'} width='100%' style={{marginTop:15}} onClick={submitHandler}>
+        <Button colorScheme='cyan' color={'black'} width='100%' style={{marginTop:15}} onClick={submitHandler}>
             SignUp
         </Button>
+        
     </VStack>
   )
 }
