@@ -31,6 +31,7 @@ const Login = () => {
 
       <Button
         colorScheme="cyan"
+        variant={"outline"}
         color={"black"}
         width="100%"
         style={{ marginTop: 15 }}
