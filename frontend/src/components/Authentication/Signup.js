@@ -16,7 +16,7 @@ const SignUp = () => {
   const [password, setPassword] = useState();
   const [confirmPassword, setConfirmPassword] = useState();
   const [pic, setPic] = useState();
-  const [loading, setLoading] = useState();
+  const [loading, setLoading] = useState(false);
 
   const toast = useToast();
   const history = useHistory();
